@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BgParallaxComponent } from './bg-parallax.component';
+import { CertificacionesComponent } from './certificaciones.component';
 
-describe('BgParallaxComponent', () => {
-  let component: BgParallaxComponent;
-  let fixture: ComponentFixture<BgParallaxComponent>;
+describe('CertificacionesComponent', () => {
+  let component: CertificacionesComponent;
+  let fixture: ComponentFixture<CertificacionesComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [BgParallaxComponent]
+      imports: [CertificacionesComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(BgParallaxComponent);
+    fixture = TestBed.createComponent(CertificacionesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
