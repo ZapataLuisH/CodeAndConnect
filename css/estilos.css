@@ -201,7 +201,9 @@ a:hover {
 }
 .main .portada .col .foto.izq {
   background-image: url('../img/portada-1.jpg');
-  background-position: left;
+  background-position: center center;
+
+  
 }
 .main .portada .col .foto.der {
   background-image: url('../img/portada-4.jpg');
@@ -251,6 +253,8 @@ a:hover {
 .main .portada .col .foto-full.izq {
   background-image: url('../img/portada-2.jpg');
   opacity: 0.8;
+
+
 }
 .main .portada .col .foto-full.der {
   background-image: url('../img/portada-3.jpg');
